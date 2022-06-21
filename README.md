@@ -9,5 +9,5 @@ Script 2: GV_Check_Mandatory_Fields
 
         This groovy script can be used to check if the mandatory fields are present in the input xml body. There are 3 properties which are being used here
                 1) Primary Key  - Field which uniquely identifies the record 
-                2) Mandatory_Tag_Names - Feilds which are required. If these fields are not available/blank in the input then the groovy will remove the parent node and                                          they are added to the list which can be used later for reporting.
-                3) Warning_Tag_Names - Feilds which are not mandatory.If these fields are not available/blank in the input then it is added to list which can be                                            later used for reoprting the warning messages.
+                2) Mandatory_Tag_Names - Feilds which are required. If these fields are not available/blank in the input then the groovy will remove the parent node and they are added to the list which can be used later for reporting.
+                3) Warning_Tag_Names - Feilds which are not mandatory.If these fields are not available/blank in the input then it is added to list which can be         later used for reoprting the warning messages.
